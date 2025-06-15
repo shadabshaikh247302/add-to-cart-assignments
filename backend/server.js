@@ -13,7 +13,7 @@ app.use(bodyParser.json({ limit: '10mb' }));
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
 
 app.use(cors({
-  origin: 'http://localhost:5173', // your frontend Vite origin
+  origin:  "https://add-to-cart-assignments-r46k.vercel.app", // your frontend Vite origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
