@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const BASE_URL = 'http://localhost:8000/api/order';
+const BASE_URL = 'https://add-to-cart-assignments-4.onrender.com/api/order';
 
 // Create Product
 export const createProduct = createAsyncThunk(
